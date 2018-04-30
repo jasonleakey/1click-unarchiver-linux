@@ -4,5 +4,9 @@ A Mac OS like unarchiver tool for Linux. Ubuntu's default Archive Manager (file-
 
 ## Installation
 
-Go to [Release Page](https://github.com/jasonleakey/1click-unarchiver-linux/releases), download and double-click to install the deb file. 
+Download [the latest release](https://github.com/jasonleakey/1click-unarchiver-linux/releases/download/0.1/unarchiver-0.1.deb) and double-click to install the deb file. 
+
+After you installed the package, right click any 'zip/tar' file and change the 'Open With' to **Unarchiver**.
+
+It will automatically extract the file to the same folder and present it to you.
 
