@@ -1,0 +1,8 @@
+Package: unarchiver
+Version: 0.1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: unar
+Maintainer: Jason Huang <jasonh3308@gmail.com>
+Description: Unarchive a compress file and show it in the file manager

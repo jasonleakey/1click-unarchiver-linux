@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ] || ! [ -f "$1" ]; then
+    echo "Usage: $0 <archive-file>" >&2
+    exit 1
+fi
+
+# check if the params are right
+dir=`dirname "$1"`
+cd "$dir"
+
+# check if the folder exists
+folder=`unar -r "$1" | grep -P "(?=Successfully extracted to \").*(?=\")" | cut -d '"' -f 2`
+touch "$folder"
+nautilus "$folder"

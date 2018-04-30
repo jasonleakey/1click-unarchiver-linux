@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Unarchiver
+Comment=Unarchive a compressed file and show it in file manager
+Exec=/usr/local/bin/unarchiver %U 
+Icon=/usr/share/icons/unarchiver-linux-128.png
+Terminal=true
+Type=Application
+Categories=Utilities;
+
